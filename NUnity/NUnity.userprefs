@@ -1,8 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\NUnit\Editor\NUnitTestGUI.cs">
+    <Files>
+      <File FileName="Assets\Code\GameComponents\MyComponent.cs" Line="16" Column="12" />
+      <File FileName="Assets\Code\MiscellaneousScripts\MyClass.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Tests\NUnit\Editor\MyTests.cs" Line="35" Column="6" />
+      <File FileName="Assets\Code\NUnit\Editor\NUnitTestGUI.cs" Line="51" Column="45" />
+      <File FileName="Assets\Code\Tests\NUnit\Editor\NUnitTestRunner.cs" Line="25" Column="86" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\rey\Documents\GitHub\UnityNUnitTest\NUnity\Assets\Code\Editor\NUnitTestGUI.cs" line="54" />
+      <Breakpoint file="C:\Users\rey\Documents\GitHub\UnityNUnitTest\NUnity\Assets\Code\Editor\NUnitTestGUI.cs" line="56" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
