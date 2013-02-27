@@ -32,7 +32,7 @@ public class NUnitTestGUI : EditorWindow
         GUILayout.BeginHorizontal();
         if (GUILayout.Button("Test"))
         {
-            sTestRunner.RunTests();///////////////
+            sTestRunner.RunTests();
         }
         if (GUILayout.Button("Clear"))
         {
