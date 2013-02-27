@@ -1,0 +1,16 @@
+
+{
+    "__type" : "Hardware.Users.UserDataContainer",
+    "CameraTargetX" : 0.8461832,
+    "CameraTargetY" : 0.4358475,
+    "CameraTargetZ" : 0.9928489,
+    "CameraKey"     : 1.099999,
+    "LastEncounter" : 0,
+    "EnabledGUI"    : -1,
+    "oid"           : "rey",
+    "tid"           : "UserDataContainer",
+    "uid"           : 5000,
+    "v"             : 1,
+    "ck"            : 3960582386,
+    "t"             : 0
+}

@@ -1,0 +1,2280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2012-09-11T09:42:21</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T09:47:45</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T09:53:18</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T11:38:24</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T11:45:13</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>4</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T11:47:34</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>4</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T11:48:16</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T11:58:03</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>4</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T11:59:24</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T13:12:45</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T13:13:12</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:33:51</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:34:48</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:40:57</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:41:05</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:46:17</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>3</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:51:03</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>3</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:52:32</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>3</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:54:03</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:54:20</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:55:45</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:57:57</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:58:45</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:59:41</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T15:59:55</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T16:00:32</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T16:01:14</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T16:02:04</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T16:02:32</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-09-11T17:23:44</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="MyClassTest">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:37:01</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:40:44</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:41:24</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:42:21</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:47:45</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:53:18</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:39:22</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Object type cannot be converted to target type.</Message>
+          <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestSuite.cs:line 64
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:39:55</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Object type cannot be converted to target type.</Message>
+          <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestSuite.cs:line 64
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:45:13</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>3</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:47:34</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>3</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:48:16</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:58:03</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>3</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:59:24</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T13:12:45</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T13:13:12</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:40:57</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:41:05</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:46:17</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:51:03</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:52:32</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:54:03</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:54:20</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T16:00:32</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T16:02:32</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="TestPositive">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:35:24</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:37:01</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:40:44</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:41:24</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:42:21</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:47:45</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:53:18</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:41:00</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Object type cannot be converted to target type.</Message>
+              <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestCase.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestCase.cs:line 58
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:42:07</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Object type cannot be converted to target type.</Message>
+              <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestCase.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestCase.cs:line 58
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:42:44</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Object type cannot be converted to target type.</Message>
+              <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestCase.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestCase.cs:line 58
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:43:35</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Object type cannot be converted to target type.</Message>
+              <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestCase.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestCase.cs:line 58
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:43:59</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Object type cannot be converted to target type.</Message>
+              <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitTestCase.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestCase.cs:line 58
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:45:00</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  1
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 13</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:45:13</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  1
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 13</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:47:34</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  1
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 13</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:48:16</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:58:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  1
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 13</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:59:24</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:12:45</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:13:12</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:40:57</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:41:05</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:42:44</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.NullReferenceException : Object reference not set to an instance of an object.</Message>
+              <StackTrace>   at MyClassTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 27</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:43:44</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.01ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:44:15</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.NullReferenceException was expected</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:46:17</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.NullReferenceException was expected</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:51:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.NullReferenceException was expected</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:52:32</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.NullReferenceException was expected</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:00</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.01ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:03</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:20</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:00:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:02:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+          </Results>
+          <Tests />
+        </TestRecord>
+        <TestRecord Name="TestFail">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:37:01</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 27</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:40:44</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 28</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:41:24</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 28</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:42:17</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 28</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:42:21</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 28</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:47:45</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 28</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:53:18</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 28</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:45:13</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:47:34</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:48:16</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:58:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:59:24</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:12:45</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:13:12</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 30</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:40:57</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:41:02</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:41:05</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:46:17</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 44</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:46:22</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Couldn't create a remote process.</Message>
+              <StackTrace>   at MonoDevelop.Core.Execution.ProcessHostController.CreateInstance(String assemblyPath, String typeName, String[] addins) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\core\MonoDevelop.Core\MonoDevelop.Core.Execution\ProcessHostController.cs:line 223
+   at MonoDevelop.Core.Execution.ProcessService.CreateExternalProcessObject(Type type, IExecutionHandler executionHandler) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\core\MonoDevelop.Core\MonoDevelop.Core.Execution\ProcessService.cs:line 327
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 338
+   at MonoDevelop.NUnit.NUnitTestCase.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitTestCase.cs:line 58
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:51:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 46</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:52:32</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: 2
+  But was:  22
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestFail() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 46</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+          </Results>
+          <Tests />
+        </TestRecord>
+        <TestRecord Name="TestNegative">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:37:01</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:40:44</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:41:24</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:42:21</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:47:45</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:53:18</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+          </Results>
+          <Tests />
+        </TestRecord>
+        <TestRecord Name="TestSumNegative">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:45:13</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: -11
+  But was:  10
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestSumNegative() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 23</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:47:34</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: -11
+  But was:  10
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestSumNegative() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 23</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:48:16</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:58:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>  Expected: -11
+  But was:  10
+</Message>
+              <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Int32 expected, Int32 actual)
+   at MyClassTest.TestSumNegative() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 23</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:59:24</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:12:45</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:13:12</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:40:57</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:41:05</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:46:17</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:51:03</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:52:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:03</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:20</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:00:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:02:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+          </Results>
+          <Tests />
+        </TestRecord>
+        <TestRecord Name="TestException">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:03</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:20</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:00:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:02:32</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.00ms</Message>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+          </Results>
+          <Tests />
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+    <TestRecord Name="MyComponentTest">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:42:21</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:47:45</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T09:53:18</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:45:13</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:47:34</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:48:16</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:58:03</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T11:59:24</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T13:12:45</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T13:13:12</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:40:57</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:41:05</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:46:17</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:51:03</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:52:32</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:54:03</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T15:54:20</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T16:00:32</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-09-11T16:02:32</TestDate>
+          <Status>Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>0</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="TestPositive">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:40:49</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 38</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:42:21</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 38</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:47:45</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 38</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T09:53:18</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 38</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:45:13</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:47:34</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:48:16</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:58:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T11:59:24</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:12:45</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T13:13:12</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 40</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:40:57</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 50</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:41:05</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 50</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:46:17</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 54</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:51:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 57</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:52:32</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 57</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:03</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 53</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T15:54:20</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 53</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:00:32</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 53</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-09-11T16:02:32</TestDate>
+              <Status>Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>0</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>System.Security.SecurityException : ECall methods must be packaged into a system module.</Message>
+              <StackTrace>   at UnityEngine.Object.FindObjectOfType(Type type)
+   at MyComponentTest.TestPositive() in c:\Hardware\tech\test\NUnity\Assets\MyTests.cs:line 53</StackTrace>
+              <ConsoleOutput />
+              <ConsoleError />
+            </UnitTestResult>
+          </Results>
+          <Tests />
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

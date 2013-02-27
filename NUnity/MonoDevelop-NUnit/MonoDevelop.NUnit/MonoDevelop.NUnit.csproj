@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>50A311E2-1FEC-4791-82E2-78A35363798F</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>MonoDevelop.NUnit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>MonoDevelop.NUnit</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoDevelop.Ide" />
+    <Reference Include="gtk-sharp" />
+    <Reference Include="MonoDevelop.Core" />
+    <Reference Include="nunit.core.interfaces" />
+    <Reference Include="gdk-sharp" />
+    <Reference Include="pango-sharp" />
+    <Reference Include="Mono.Addins" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="NUnitRunner" />
+    <Reference Include="glib-sharp" />
+    <Reference Include="Mono.Cairo" />
+    <Reference Include="nunit.util" />
+    <Reference Include="nunit.framework" />
+    <Reference Include="Mono.Posix" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MonoDevelop.NUnit.Commands\NUnitProjectCommands.cs" />
+    <Compile Include="MonoDevelop.NUnit.Commands\RunAllTestsHandler.cs" />
+    <Compile Include="MonoDevelop.NUnit.Commands\TestChartCommands.cs" />
+    <Compile Include="MonoDevelop.NUnit.Commands\TestCommands.cs" />
+    <Compile Include="MonoDevelop.NUnit.External\EventListenerWrapper.cs" />
+    <Compile Include="MonoDevelop.NUnit.External\ExternalTestRunner.cs" />
+    <Compile Include="MonoDevelop.NUnit.External\IRemoteEventListener.cs" />
+    <Compile Include="MonoDevelop.NUnit.External\LocalTestMonitor.cs" />
+    <Compile Include="MonoDevelop.NUnit\ButtonNotebook.cs" />
+    <Compile Include="MonoDevelop.NUnit\CircleImage.cs" />
+    <Compile Include="MonoDevelop.NUnit\GeneralTestOptions.cs" />
+    <Compile Include="MonoDevelop.NUnit\HeaderLabel.cs" />
+    <Compile Include="MonoDevelop.NUnit\IResultsStore.cs" />
+    <Compile Include="MonoDevelop.NUnit\ITestProgressMonitor.cs" />
+    <Compile Include="MonoDevelop.NUnit\ITestProvider.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupConfigurationNodeBuilder.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupConfigurationNodeCommandHandler.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupFileFormat.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupNodeBuilder.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupNodeCommandHandler.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupProject.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyGroupProjectConfiguration.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitAssemblyTestSuite.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitCategoryOptions.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitOptionsPanel.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitOptionsWidget.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitProjectServiceExtension.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitProjectTestSuite.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitService.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitTestCase.cs" />
+    <Compile Include="MonoDevelop.NUnit\NUnitTestSuite.cs" />
+    <Compile Include="MonoDevelop.NUnit\OptionsData.cs" />
+    <Compile Include="MonoDevelop.NUnit\ResultStatus.cs" />
+    <Compile Include="MonoDevelop.NUnit\RootTest.cs" />
+    <Compile Include="MonoDevelop.NUnit\SolutionFolderTestGroup.cs" />
+    <Compile Include="MonoDevelop.NUnit\SourceCodeLocation.cs" />
+    <Compile Include="MonoDevelop.NUnit\SystemTestProvider.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestAssembly.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestAssemblyCollection.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestAssemblyNodeBuilder.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestAssemblyNodeCommandHandler.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestChart.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestChartType.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestContext.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestHandler.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestMonitor.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestNodeBuilder.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestNodeCommandHandler.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestPad.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestRecord.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestRecordCollection.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestResultsPad.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestRunAxis.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestSession.cs" />
+    <Compile Include="MonoDevelop.NUnit\TestStatus.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTest.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestCollection.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestGroup.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestOptionsDialog.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestOptionsEntry.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestOptionsSet.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestResult.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestResultCollection.cs" />
+    <Compile Include="MonoDevelop.NUnit\UnitTestResultsStore.cs" />
+    <Compile Include="MonoDevelop.NUnit\WorkspaceTestGroup.cs" />
+    <Compile Include="MonoDevelop.NUnit\XmlResultsStore.cs" />
+    <Compile Include="Stetic\ActionGroups.cs" />
+    <Compile Include="Stetic\BinContainer.cs" />
+    <Compile Include="Stetic\Gui.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gui.stetic" />
+    <EmbeddedResource Include="md1format.xml" />
+    <EmbeddedResource Include="MonoDevelopNUnit.addin.xml" />
+    <EmbeddedResource Include="nunit-overlay-32.png" />
+    <EmbeddedResource Include="NUnit.Failed.png" />
+    <EmbeddedResource Include="NUnit.Loading.png" />
+    <EmbeddedResource Include="NUnit.None.png" />
+    <EmbeddedResource Include="NUnit.NotRun.png" />
+    <EmbeddedResource Include="nunit.png" />
+    <EmbeddedResource Include="NUnit.Running.png" />
+    <EmbeddedResource Include="NUnit.Success.png" />
+    <EmbeddedResource Include="NUnit.SuccessAndFailed.png" />
+    <EmbeddedResource Include="NUnitAssemblyGroup.xpt.xml" />
+    <EmbeddedResource Include="NUnitProject.xpt.xml" />
+    <EmbeddedResource Include="NUnitTestClass.xft.xml" />
+    <EmbeddedResource Include="unit-test-16.png" />
+    <EmbeddedResource Include="unit-test-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

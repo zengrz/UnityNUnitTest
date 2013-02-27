@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2013-01-29T17:51:38</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-01-29T17:51:56</TestDate>
+      <Status>Failure</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>0</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Object type cannot be converted to target type.</Message>
+      <StackTrace>
+Server stack trace: 
+   at MonoDevelop.NUnit.External.NUnitTestRunner.Run(EventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies)
+   at MonoDevelop.NUnit.External.ExternalTestRunner.Run(IRemoteEventListener listener, ITestFilter filter, String path, String suiteName, List`1 supportAssemblies) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\ExternalTestRunner.cs:line 73
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Int32 methodPtr, Boolean fExecuteInContext, Object[]&amp; outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg, Int32 methodPtr, Boolean fExecuteInContext)
+
+Exception rethrown at [0]: 
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest(UnitTest test, String suiteName, String pathName, String testName, TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 379
+   at MonoDevelop.NUnit.NUnitAssemblyTestSuite.OnRun(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\NUnitAssemblyTestSuite.cs:line 328
+   at MonoDevelop.NUnit.UnitTest.Run(TestContext testContext) in c:\BuildAgent\work\6b3beae2de4b9011\monodevelop\main\src\addins\NUnit\Services\UnitTest.cs:line 343</StackTrace>
+    </UnitTestResult>
+  </Results>
+</TestRecord>
