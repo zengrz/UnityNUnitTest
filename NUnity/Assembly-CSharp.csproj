@@ -144,6 +144,9 @@
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+ <Reference Include="NGUI">
+ <HintPath>Assets\NGUI\DLLs\NGUI.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.core">
  <HintPath>Assets\Plugins\nunit.core.dll</HintPath>
  </Reference>
@@ -152,9 +155,6 @@
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>Assets\Plugins\nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="NGUI">
- <HintPath>Assets\NGUI\DLLs\NGUI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

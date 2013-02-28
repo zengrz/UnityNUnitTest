@@ -8,12 +8,17 @@ using NUnit.Core;
 public class NUnitTestRunner {
 
     private TestPackage mTestPackage;
-    private TestResult mResults;
+    private TestResult mResults; // Need this to check if the tests are all done. Should be better ways to achieve the same thing (ie check for status)
+    private SimpleTestRunner mTestRunner; // So that we can cancel/stop the test at any point in time.
+
+    private bool isLoaded;
 
     public NUnitTestRunner()
     {
         mTestPackage = null;
         mResults = null;
+        mTestRunner = null;
+        isLoaded = false;
     }
 
     public void LoadTests()
@@ -25,23 +30,33 @@ public class NUnitTestRunner {
         // TODO: Maybe shift the Assembly acquisition from here to "NUnitTestGUI.cs"?
         // NOTE: don't use game assembly -- we want test code to all be in the editor assembly, at least for now.
         Assembly assembly = Assembly.GetExecutingAssembly();
-        TestPackage testPackage = new TestPackage(assembly.Location);
-        mTestPackage = testPackage;
-    }
+        mTestPackage = new TestPackage(assembly.Location);
+        mTestRunner = new SimpleTestRunner();
 
-    public void RunTests()
-    {
-        SimpleTestRunner runner = new SimpleTestRunner();
-        
-        if (runner.Load(mTestPackage))
+        if (mTestRunner.Load(mTestPackage))
         {
-            mResults = runner.Run(new NUnitTestListener());
-            runner.Unload();
+            isLoaded = true;
         }
         else
         {
             Debug.LogError("Failed to load package");
         }
+
+        Debug.Log("TestName - " + mTestPackage.TestName);
+        Debug.Log("Name - " + mTestPackage.Name);
+        Debug.Log("FullName - " + mTestPackage.FullName);
+    }
+
+    public void RunTests()
+    {
+        if (isLoaded)
+        {
+            //mResults = mTestRunner.Run(new NUnitTestListener());
+            mResults = mTestRunner.Run(new NUnitTestListener(), new SingleTestFilter(mTestPackage.FullName));
+            //mResults = mTestRunner.Run(new NUnitTestListener(), new SingleTestFilter("TestPositive"));
+            mTestRunner.Unload();
+        }
+
     }
 
     public TestResult GetTestResult()
@@ -57,6 +72,22 @@ public class NUnitTestRunner {
     public bool HasResult()
     {
         return mResults != null;
+    }
+
+    public class SingleTestFilter : TestFilter
+    {
+        private string testName;
+    
+        public SingleTestFilter(string TestName)
+        {
+            testName = TestName;
+        }
+    
+    
+        public override bool Match(ITest test)
+        {
+            return test.TestName.Name.Equals(testName);
+        }
     }
 
     private class NUnitTestListener : EventListener

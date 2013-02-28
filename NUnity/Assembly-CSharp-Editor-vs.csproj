@@ -95,6 +95,12 @@
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+ <Reference Include="NGUI">
+ <HintPath>Assets\NGUI\DLLs\NGUI.dll</HintPath>
+ </Reference>
+ <Reference Include="NGUI_Editor">
+ <HintPath>Assets\NGUI\DLLs\Editor\NGUI_Editor.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.core">
  <HintPath>Assets\Plugins\nunit.core.dll</HintPath>
  </Reference>
@@ -106,12 +112,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="NGUI_Editor">
- <HintPath>Assets\NGUI\DLLs\Editor\NGUI_Editor.dll</HintPath>
- </Reference>
- <Reference Include="NGUI">
- <HintPath>Assets\NGUI\DLLs\NGUI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
